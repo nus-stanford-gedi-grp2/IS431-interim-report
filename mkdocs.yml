@@ -1,0 +1,41 @@
+site_name: Redesigning the Hotel Arrival Experience
+site_description: CDE4301 IS-431 final report · NUS–Stanford GEDI
+site_author: CDE4301 IS-431
+
+theme:
+  name: material
+  language: en
+  font: false
+  palette:
+    scheme: default
+    primary: custom
+    accent: custom
+  features:
+    - toc.integrate
+    - toc.follow
+    - navigation.top
+
+nav:
+  - Report contents: index.md
+
+# Chapters are included in index.md rather than published as separate pages.
+exclude_docs: |
+  /chapters/
+
+plugins:
+  - include-markdown
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - tables
+  - footnotes
+  - toc:
+      permalink: true
+      toc_depth: 2-3
+
+extra_css:
+  - stylesheets/report.css
+
+extra:
+  generator: false
