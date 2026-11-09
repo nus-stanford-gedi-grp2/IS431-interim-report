@@ -76,6 +76,48 @@ html {
   font-size: 0.8rem;
 }
 
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: clamp(0.4rem, 2vw, 1.25rem);
+  margin: 1.5rem 0 2.5rem;
+  text-align: center;
+}
+
+.team-grid--supervisors .team-member:first-child {
+  grid-column: 2;
+}
+
+.team-member {
+  min-width: 0;
+  overflow-wrap: anywhere;
+  font-size: clamp(0.6rem, 1.3vw, 0.78rem);
+  line-height: 1.5;
+}
+
+.md-typeset .team-portrait {
+  display: block;
+  width: min(100%, 8rem);
+  aspect-ratio: 1;
+  object-fit: cover;
+  border: 2px solid var(--nus-silver);
+  border-radius: 50%;
+  margin: 0 auto 0.75rem;
+}
+
+.md-typeset .team-member p {
+  margin: 0.25rem 0;
+}
+
+.team-name {
+  color: var(--nus-blue);
+  font-weight: 700;
+}
+
+.team-id {
+  color: var(--md-default-fg-color--light);
+}
+
 .md-nav {
   font-size: 0.73rem;
 }
