@@ -1,5 +1,5 @@
 ![NUS Logo](./assets/images/NUS_logo_full-horizontal.jpg)
-# Redesigning the Hotel Arrival Experience
+# Reimagining the Hotel Arrival Experience
 
 <div class="report-meta" markdown="1">
 
