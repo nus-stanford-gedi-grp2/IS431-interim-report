@@ -15,13 +15,13 @@ Stanford GEDI Programme AY2026/27
     <img class="team-portrait" src="assets/images/profile-pics/asher.png" alt="Asher Tan Shih" loading="lazy">
     <p class="team-name">Asher Tan Shih</p>
     <p class="team-course">Computer Engineering and Innovation & Design Programme</p>
-    <p class="team-id">insert ID</p>
+    <p class="team-id">A0283041N</p>
   </div>
   <div class="team-member">
     <img class="team-portrait" src="assets/images/profile-pics/jay.jpeg" alt="Jay Shah" loading="lazy">
     <p class="team-name">Jay Shah</p>
     <p class="team-course">Mechanical Engineering and Innovation & Design Programme</p>
-    <p class="team-id">insert ID</p>
+    <p class="team-id">A0288344U</p>
   </div>
   <div class="team-member">
     <img class="team-portrait" src="assets/images/profile-pics/jiyong.jpeg" alt="Lim Ji Yong" loading="lazy">
