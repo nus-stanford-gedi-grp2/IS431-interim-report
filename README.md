@@ -37,13 +37,12 @@ Write your assigned section in its Markdown file under `docs/chapters/`:
 | --- | --- |
 | Acknowledgements | `00-acknowledgements.md` |
 | 1. Introduction | `01-introduction.md` |
-| 2. Context | `02-context.md` |
-| 3. Problem Statement | `03-problem-statement.md` |
-| 4. Research and Problem Investigation | `04-research.md` |
-| 5. Fieldwork and Key Findings | `05-fieldwork.md` |
-| 6. Prototype Development | `06-prototype.md` |
-| 7. Evaluation | `07-evaluation.md` |
-| 8. Conclusion and Next Steps | `08-conclusion.md` |
+| 2. Problem Statement | `03-problem-statement.md` |
+| 3. Research and Problem Investigation | `04-research.md` |
+| 4. Fieldwork and Key Findings | `05-fieldwork.md` |
+| 5. Prototype Development | `06-prototype.md` |
+| 6. Evaluation | `07-evaluation.md` |
+| 7. Conclusion and Next Steps | `08-conclusion.md` |
 | References and Appendices | `09-references.md` |
 
 Keep the existing `##` chapter heading and its `{#anchor}`. Add subsections with `###` and smaller headings with `####`; these appear in the report navigation. Replace the placeholder summaries with your content.

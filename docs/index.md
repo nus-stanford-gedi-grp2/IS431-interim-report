@@ -56,8 +56,6 @@ Stanford GEDI Programme AY2026/27
 
 {% include-markdown "chapters/01-introduction.md" %}
 
-{% include-markdown "chapters/02-context.md" %}
-
 {% include-markdown "chapters/03-problem-statement.md" %}
 
 {% include-markdown "chapters/04-research.md" %}

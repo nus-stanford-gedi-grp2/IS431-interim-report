@@ -1,4 +1,4 @@
-## 3. Problem Statement {#problem-statement}
+## 2. Problem Statement {#problem-statement}
 
 ### Refining the problem space {#problem-space}
 
@@ -10,7 +10,7 @@ Taken at face value, this question could lead almost anywhere: AI concierges, ro
 
 > **How may we improve the check-in experience with better kiosk implementation in hotels?**
 
-The refinement was made in three steps, each tied to evidence from our preliminary research (Chapter 2) and fieldwork (Chapter 5).
+The refinement was made in three steps, each tied to evidence from our preliminary research (Chapter 3) and fieldwork (Chapter 4).
 
 **1. From the whole arrival experience to check-in.** Of the touchpoints in a hotel stay, check-in (together with check-out) is where we found the highest leverage. It is the moment where manpower pressure, regulatory duty and guest expectations meet. Identity verification is mandatory, it is repetitive, and it is bunched into peak windows that a discretely staffed front desk struggles to absorb.
 

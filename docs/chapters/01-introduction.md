@@ -17,7 +17,7 @@ The project runs in two phases. **Phase I** (this report) covers preliminary res
 
 ### Project scope and objectives {#project-scope}
 
-"Arrival" touches many parts of a hotel stay, from pre-arrival messaging to luggage handling to key issuance, and the set of "emerging technologies" that could be applied to it is wider still. Early in Phase I we therefore narrowed the question to a single, concrete problem: **how hotels can improve the check-in experience through better kiosk implementation**. Chapter 3 explains why we made this choice.
+"Arrival" touches many parts of a hotel stay, from pre-arrival messaging to luggage handling to key issuance, and the set of "emerging technologies" that could be applied to it is wider still. Early in Phase I we therefore narrowed the question to a single, concrete problem: **how hotels can improve the check-in experience through better kiosk implementation**. Chapter 2 explains why we made this choice.
 
 Within that scope, Phase I set out to:
 
@@ -30,10 +30,9 @@ The report concentrates on the **check-in** step of arrival and on **self-servic
 
 ### Organisation of this report {#report-organisation}
 
-- **Chapter 2 (Context)** describes the Singapore hospitality landscape, its manpower challenges, stakeholders, and digitalisation initiatives.
-- **Chapter 3 (Problem Statement)** explains how the original challenge was refined into the problem we address.
-- **Chapter 4 (Research)** reviews existing kiosk technology, industry practice, and evidence on kiosk adoption.
-- **Chapter 5 (Fieldwork)** presents our hotel visits, observations, and the findings that shaped the solution.
-- **Chapter 6 (Prototype Development)** explains why we built an interactive implementation playbook, how it is structured, and presents the playbook itself.
-- **Chapter 7 (Evaluation)** reports feedback from hotel practitioners and the limitations of the current prototype.
-- **Chapter 8 (Conclusion)** summarises Phase I and outlines the way ahead for Phase II.
+- **Chapter 2 (Problem Statement)** explains how the original challenge was refined into the problem we address.
+- **Chapter 3 (Research and Problem Investigation)** describes the Singapore hospitality landscape, its manpower challenges, stakeholders and digitalisation initiatives, and reviews existing kiosk technology, industry practice, and evidence on kiosk adoption.
+- **Chapter 4 (Fieldwork)** presents our hotel visits, observations, and the findings that shaped the solution.
+- **Chapter 5 (Prototype Development)** explains why we built an interactive implementation playbook, how it is structured, and presents the playbook itself.
+- **Chapter 6 (Evaluation)** reports feedback from hotel practitioners and the limitations of the current prototype.
+- **Chapter 7 (Conclusion)** summarises Phase I and outlines the way ahead for Phase II.

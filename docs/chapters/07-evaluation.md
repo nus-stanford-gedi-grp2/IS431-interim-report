@@ -1,4 +1,4 @@
-## 7. Evaluation {#evaluation}
+## 6. Evaluation {#evaluation}
 
 ### Feedback and validation {#feedback-validation}
 

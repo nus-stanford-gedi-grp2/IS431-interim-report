@@ -1,4 +1,4 @@
-## 5. Fieldwork and Key Findings {#fieldwork}
+## 4. Fieldwork and Key Findings {#fieldwork}
 
 ### Hotel visits {#hotel-visits}
 

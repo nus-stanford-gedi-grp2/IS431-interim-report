@@ -1,10 +1,10 @@
-## 6. Prototype Development {#prototype-development}
+## 5. Prototype Development {#prototype-development}
 
 ### Playbook rationale and structure {#playbook-development}
 
 #### Why a playbook, and not a better kiosk {#why-playbook}
 
-Our hotel visits (Chapter 5) surfaced six recurring problems with kiosks in practice: basic functionality (passport scan errors, bookings that fail to link, payment failures, jammed or missing key cards), clunky UI/UX, cabling, poor positioning, difficulty handling large tasks such as multi-room bookings, and a lingering demand for human touch. The natural reaction is to design a better kiosk. We chose not to, for three reasons:
+Our hotel visits (Chapter 4) surfaced six recurring problems with kiosks in practice: basic functionality (passport scan errors, bookings that fail to link, payment failures, jammed or missing key cards), clunky UI/UX, cabling, poor positioning, difficulty handling large tasks such as multi-room bookings, and a lingering demand for human touch. The natural reaction is to design a better kiosk. We chose not to, for three reasons:
 
 1. **Kiosk design is a minor factor.** The gap between 20% usage at one hotel and 85% at another was driven largely by factors outside the machine: placement, visibility, staff training, guest fit and reliability. A better kiosk would leave most of that gap untouched.
 2. **Fixing one pain point is not enough.** A tool that rectified a single hotel's current problem would not prevent the next manager from making different mistakes. We would need to address every pain point, across properties that serve very different guests.
@@ -38,7 +38,7 @@ The **cost-benefit analysis** is built as a five-stage workflow: diagnose the cu
 
 #### Validation {#playbook-validation}
 
-We tested the playbook with Mr Sherwin Poh, Senior Manager (Operations) at The Ridge at NUS. He said it would have helped him make more informed considerations when planning his own deployment, and that the kiosk suitability rating could help win buy-in from superiors. Chapter 7 presents this feedback, and the limitations we identified, in full. The playbook is hosted as a website and completed outputs can be exported to PDF.
+We tested the playbook with Mr Sherwin Poh, Senior Manager (Operations) at The Ridge at NUS. He said it would have helped him make more informed considerations when planning his own deployment, and that the kiosk suitability rating could help win buy-in from superiors. Chapter 6 presents this feedback, and the limitations we identified, in full. The playbook is hosted as a website and completed outputs can be exported to PDF.
 
 ### Interactive implementation playbook {#interactive-playbook}
 
