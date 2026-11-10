@@ -36,10 +36,6 @@ The playbook follows three stages, mirroring how a hotel moves from deciding on 
 
 The **cost-benefit analysis** is built as a five-stage workflow: diagnose the current state, size the addressable demand, quantify the operational impact, monetise it, and decide. It distinguishes measured data from assumptions, tests low, base and high adoption scenarios, and treats staff hours released as redeployment capacity unless they can genuinely reduce shifts or headcount. Managers can also use it to obtain an initial figure for an STB grant application.
 
-#### Validation {#playbook-validation}
-
-We tested the playbook with Mr Sherwin Poh, Senior Manager (Operations) at The Ridge at NUS. He said it would have helped him make more informed considerations when planning his own deployment, and that the kiosk suitability rating could help win buy-in from superiors. Chapter 6 presents this feedback, and the limitations we identified, in full. The playbook is hosted as a website and completed outputs can be exported to PDF.
-
 ### Interactive implementation playbook {#interactive-playbook}
 
 Explore the playbook below, or [open the standalone playbook](apps/playbook/index.html){ .playbook-link target="_blank" rel="noopener" } in a new tab for more space.
@@ -55,3 +51,7 @@ Explore the playbook below, or [open the standalone playbook](apps/playbook/inde
 </div>
 
 *Use the playbook's own menu and Previous/Next buttons to navigate its slides. The report continues below.*
+
+### Playbook deployment {#playbook-deployment}
+The playbook will be hosted online as a website, allowing hotel managers to access and utilise its interactive tools conveniently. Given the sensitivity of guest and financial data, user inputs will not be stored on the website to safeguard data privacy. Instead, users will be able to download a copy of the completed playbook, including their inputs and calculated results, for future reference and decision-making.
+
