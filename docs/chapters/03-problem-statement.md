@@ -18,6 +18,11 @@ The refinement was made in three steps, each tied to evidence from our prelimina
 
 **3. From "kiosks" to "kiosk implementation".** Our hotel visits showed that the technology alone does not determine success. Kiosk usage varied sharply between properties: about **20%** at one serviced residence we visited, against about **85%** at The Ridge at NUS, which became our benchmark. The difference could not be explained by the kiosk hardware alone. It also came from where the kiosk was placed, whether guests noticed and trusted it, how reliably it worked, whether staff had been trained to support it, and whether the hotel had thought through who its guests were. In other words, **kiosk design is only one small factor in successful kiosk implementation.** Redesigning a kiosk would therefore leave most of the gap unaddressed, so the problem we chose to solve is the implementation of the kiosk in its setting.
 
+<figure markdown="1">
+  ![A hotel manager at the edge of a gap between the current state and the desired state, with kiosk suitability for guests, user-friendly design, better placement, functional reliability and staff training bridging it](../assets/images/figures/Problem-Statement_Implementation-Gap.png)
+  <figcaption>The implementation gap: a manager moving from the current state to the desired state must address guest suitability, design, placement, reliability and staff training.</figcaption>
+</figure>
+
 ### Scope of the refined problem {#problem-scope}
 
 | | Original challenge | Phase I problem statement |

@@ -27,7 +27,7 @@ Stanford GEDI Programme AY2026/27
     <img class="team-portrait" src="assets/images/profile-pics/jiyong.jpeg" alt="Lim Ji Yong" loading="lazy">
     <p class="team-name">Lim Ji Yong</p>
     <p class="team-course">Electrical Engineering and Innovation & Design Programme</p>
-    <p class="team-id">insert ID</p>
+    <p class="team-id">A0282723A</p>
   </div>
   <div class="team-member">
     <img class="team-portrait" src="assets/images/profile-pics/wenyi.jpg" alt="Liu Wenyi" loading="lazy">

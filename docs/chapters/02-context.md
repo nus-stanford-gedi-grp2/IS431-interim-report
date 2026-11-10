@@ -41,7 +41,12 @@ Government agencies are actively encouraging digital check-in:
 
 ### Stakeholders {#stakeholders}
 
-Four groups have a stake in how check-in is done, and their interests increasingly point in the same direction:
+Four groups have a stake in how check-in is done, and their interests increasingly point in the same direction. The government certifies vendors and regulates and funds hotels; solution providers sell and integrate technology into hotels; and guests use that technology as part of their stay and service. Within hotels, owners and managers are distinct decision-makers.
+
+<figure markdown="1">
+  ![Stakeholder map showing guests, solution providers, government and hotels (owners and managers) and the relationships between them](../assets/images/figures/Context_Stakeholder-Map.png)
+  <figcaption>Stakeholder map for hotel check-in technology.</figcaption>
+</figure>
 
 | Stakeholder | What they want | Relationship to kiosks |
 |---|---|---|
@@ -53,6 +58,11 @@ Four groups have a stake in how check-in is done, and their interests increasing
 ### Why kiosks {#why-kiosks}
 
 Across the stakeholder map, one solution recurs: the **self-service kiosk**. Guests want to skip the queue; hotels are short of front-desk staff and need peak and round-the-clock cover; the government pushes and funds digital check-in; and a certified vendor market exists to supply it.
+
+<figure markdown="1">
+  ![Four stakeholder groups, guests, hotels, government and solution providers, each pointing towards kiosks as a common solution](../assets/images/figures/Context_Kiosk-Convergence.png)
+  <figcaption>Each stakeholder group's needs converge on kiosks, which are also established in other industries such as retail and F&amp;B.</figcaption>
+</figure>
 
 Kiosks have also delivered measurable results in other industries. McDonald's reported larger average order sizes (about 20%) after introducing ordering kiosks, partly through upselling. Changi Airport's passport-free immigration clearance, fully rolled out in September 2024, cut average clearance time from 25 seconds to about 10. Retail chains such as Uniqlo have used self-checkout to shorten transaction times. Chapter 4 examines these cases and their limits in more detail, including cases where self-service has been scaled back.
 
