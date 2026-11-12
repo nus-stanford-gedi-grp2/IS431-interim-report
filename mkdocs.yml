@@ -1,9 +1,11 @@
 site_name: Redesigning the Hotel Arrival Experience
-site_description: CDE4301 IS-431 final report · NUS–Stanford GEDI
+site_description: CDE4301 IS-431 Interim Report · Stanford GEDI Programme AY2026/27
 site_author: CDE4301 IS-431
+use_directory_urls: false
 
 theme:
   name: material
+  favicon: favicon.ico
   language: en
   font: false
   palette:
@@ -11,14 +13,19 @@ theme:
     primary: custom
     accent: custom
   features:
+    - navigation.tabs
+    - navigation.tabs.sticky
     - toc.integrate
     - toc.follow
     - navigation.top
 
 nav:
-  - Report contents: index.md
+  - Home: index.md
+  - About Us: about.md
+  - Interim Report: report.md
+  - Kiosk Implementation Playbook: playbook.md
 
-# Chapters are included in index.md rather than published as separate pages.
+# Chapters are included in report.md rather than published as separate pages.
 exclude_docs: |
   /chapters/
 
@@ -32,10 +39,13 @@ markdown_extensions:
   - footnotes
   - toc:
       permalink: true
-      toc_depth: 2-3
+      toc_depth: 2
 
 extra_css:
   - stylesheets/report.css
+
+extra_javascript:
+  - javascripts/report.js
 
 extra:
   generator: false

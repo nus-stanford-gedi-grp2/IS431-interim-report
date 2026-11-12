@@ -49,4 +49,4 @@ Keep the existing `##` chapter heading and its `{#anchor}`. Add subsections with
 
 Put figures in `docs/assets/` and reference them from chapter files as `![Description](../assets/filename.png)`.
 
-`docs/index.md` assembles the chapters into one page; no changes there are needed for ordinary writing. The playbook lives in `docs/apps/playbook/` and is embedded by `06-prototype.md`; preserve its embed and relative asset paths.
+`docs/report.md` assembles the chapters into one scrolling report; no changes there are needed for ordinary writing. `docs/index.md` is the landing page, and `docs/about.md` contains the team profiles. The playbook lives in `docs/apps/playbook/` and is embedded by `06-prototype.md`; preserve its embed and relative asset paths.
