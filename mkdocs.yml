@@ -5,6 +5,7 @@ use_directory_urls: false
 
 theme:
   name: material
+  custom_dir: overrides
   favicon: favicon.ico
   language: en
   font: false

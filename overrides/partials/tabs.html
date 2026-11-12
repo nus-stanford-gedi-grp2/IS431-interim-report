@@ -1,0 +1,11 @@
+{% import "partials/tabs-item.html" as item with context %}
+<nav class="md-tabs" aria-label="{{ lang.t('tabs') }}" data-md-component="tabs">
+  <div class="md-grid site-navigation-inner">
+    <a class="site-brand" href="{{ nav.homepage.url | url }}" aria-label="IS-431 home">IS-431</a>
+    <ul class="md-tabs__list">
+      {% for nav_item in nav.items %}
+        {{ item.render(nav_item) }}
+      {% endfor %}
+    </ul>
+  </div>
+</nav>
