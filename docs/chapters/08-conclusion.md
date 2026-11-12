@@ -4,7 +4,7 @@
 
 Phase I focused on understanding the challenges surrounding hotel self-service kiosk adoption and developing a structured approach to improving kiosk implementation.
 
-Through industry research, fieldwork, and engagement with hotel stakeholders, we gained valuable insights into hotel operations, guest journeys, and the factors influencing technology adoption. These findings informed the development of an interactive playbook that guides hotel operators through three key stages: **Strategy, Design, and Execution**.
+Through industry research, fieldwork, and engagement with hotel stakeholders, we gained valuable insights into hotel operations, guest journeys, and the factors influencing technology adoption. These findings informed the development of an interactive playbook that guides hotel operators through the three stages: Strategy, Design, and Execution.
 
 The playbook consolidates our research into a practical decision-support resource, enabling hotel managers to evaluate kiosk suitability, explore placement options, assess financial feasibility, and plan implementation. Positive feedback from industry professionals further highlighted its potential value in supporting more informed planning decisions.
 

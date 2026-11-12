@@ -32,9 +32,9 @@ The playbook follows three stages, mirroring how a hotel moves from deciding on 
 |---|---|---|
 | **Strategy** | Is a kiosk right for us, and what do we want from it? | Define objectives and set measurable goals; profile their guests; assess kiosk suitability; run a cost-benefit analysis (staff hours released, adoption scenarios, payback) |
 | **Design** | What should the kiosk and its setting look like? | Apply principles for placement, physical and inclusive design, UI/UX, human–kiosk handoff, security and privacy, and guest fit; compare candidate placements using the Kiosk Placement Studio |
-| **Execution** | How do we deploy and run it? | Plan product, technology, people, process and rollout workstreams; prepare for failure and low usage; plan for maintenance and improvement |
+| **Execution** | How do we deploy and run it? | Identify work to be done in four workstreams: <ul><li>Product - procuring the kiosks</li><li>Infrastructure - integration of the kiosks into physical and digital systems</li><li>Manpower - staff training and revision of Terms of Reference</li><li>Maintenance and Upgrades - ensuring the kiosk is up to date in meeting guest needs</li></ul>|
 
-The **cost-benefit analysis** is built as a five-stage workflow: diagnose the current state, size the addressable demand, quantify the operational impact, monetise it, and decide. It distinguishes measured data from assumptions, tests low, base and high adoption scenarios, and treats staff hours released as redeployment capacity unless they can genuinely reduce shifts or headcount. Managers can also use it to obtain an initial figure for an STB grant application.
+The playbook concludes with a **cost-benefit analysis**, allowing the manager to make a quick comparison of the quantitative and qualitative benefits they stand to gain against the investment required for kiosk implementation.
 
 ### Interactive implementation playbook {#interactive-playbook}
 

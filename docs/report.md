@@ -4,8 +4,6 @@ title: Interim Report
 
 <div class="report-intro" markdown="1">
 
-<img class="institution-logo" src="assets/images/NUS_logo_full-horizontal.jpg" alt="National University of Singapore">
-
 <p class="page-eyebrow">THE DESIGN INVESTIGATION · PHASE I</p>
 
 # Reimagining the Hotel Arrival Experience
@@ -16,9 +14,6 @@ title: Interim Report
 Stanford GEDI Programme AY2026/27
 
 </div>
-
-Read the complete report below, or use the chapter navigation to explore a section. Scroll at your own pace throughout.
-
 </div>
 
 <div class="report-document" markdown="1">

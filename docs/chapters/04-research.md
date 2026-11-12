@@ -4,16 +4,11 @@
 
 Singapore's hotel sector spans three broad segments: **luxury** (for example Raffles, Mandarin Oriental, Shangri-La and The Ritz-Carlton), **mid-range** (for example Novotel, Holiday Inn and Hilton Garden Inn, and serviced-residence brands such as Citadines, Somerset and Oakwood), and **budget** (for example lyf, Hotel 81 and ibis budget). Large groups such as The Ascott Limited operate brands across several of these tiers. The segments differ in guest profile, service expectations, margins and staffing models, so a solution that suits a luxury property is not automatically right for a budget one. This became a recurring consideration in how we framed our eventual prototype.
 
-Despite these differences, every hotel delivers the same core service chain:
+Despite these differences, every hotel delivers the same core service chain of pre-arrival, arrival, stay and departure:
 
-| Stage | Core services |
-|---|---|
-| **Pre-arrival** | Reservations, pre-arrival messaging, deposits and payment |
-| **Arrival** | Check-in and ID verification, room and key assignment, luggage and concierge |
-| **Stay** | Housekeeping, food and beverage, guest requests |
-| **Departure** | Check-out and billing, feedback and reviews, loyalty rewards |
+![Hotel core services across pre-arrival, arrival, stay, and departure](../assets/images/figures/hotel-core-services.png)
 
-Arrival is the first moment a guest interacts with the hotel in person. It is also the stage that combines the most routine, rule-bound tasks (verifying identity, collecting payment, issuing a key) in a single, time-pressured transaction at the front desk.
+Our work focuses on **arrivals**, which is the first moment a guest interacts with the hotel in person. It is also the stage that combines the most routine, rule-bound tasks (verifying identity, collecting payment, issuing a key) in a single, time-pressured transaction at the front desk.
 
 ### Manpower challenges {#manpower-challenges}
 
@@ -68,6 +63,3 @@ Kiosks have also delivered measurable results in other industries. McDonald's re
 
 The question that motivated our project, then, is not *whether* kiosks make sense for hotels, but a more difficult one: **how well are they actually working, and what can we learn from the hotels that have already adopted them?**
 
-### Research on kiosk adoption {#kiosk-adoption}
-
-This chapter will present secondary research, existing technologies, industry practices, and relevant evidence concerning kiosk adoption and implementation.
