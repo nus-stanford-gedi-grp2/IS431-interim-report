@@ -2,8 +2,6 @@
 
 ### References {#references}
 
-This section will provide academic references used throughout the report.
-
 Boo, H. C., & Chua, B.-L. (2022). An integrative model of facial recognition check-in technology adoption intention: The perspective of hotel guests in Singapore. *International Journal of Contemporary Hospitality Management, 34*(11), 4052–4079. <https://doi.org/10.1108/IJCHM-12-2021-1471>
 
 Cayla, J. (2023, October 3). Services staff are humans, too – and customers need to understand this. *The Straits Times*. <https://www.straitstimes.com/opinion/service-staff-are-humans-too-and-customers-need-to-understand-this>
