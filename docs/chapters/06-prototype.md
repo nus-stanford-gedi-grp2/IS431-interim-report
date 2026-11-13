@@ -4,7 +4,7 @@
 
 #### Why a playbook, and not a better kiosk {#why-playbook}
 
-Our hotel visits (Chapter 4) surfaced six recurring problems with kiosks in practice: basic functionality (passport scan errors, bookings that fail to link, payment failures, jammed or missing key cards), clunky UI/UX, cabling, poor positioning, difficulty handling large tasks such as multi-room bookings, and a lingering demand for human touch. The natural reaction is to design a better kiosk. We chose not to, for three reasons:
+Our hotel visits (Chapter 4) surfaced six recurring problems with kiosks in practice: basic functionality (passport scan errors, bookings that fail to link, payment failures, jammed or missing key cards), clunky UI/UX, cabling, poor positioning, difficulty handling large tasks such as multi-room bookings, and a lingering demand for human touch. The natural reaction would be to design a better kiosk. We chose not to, for three reasons:
 
 1. **Kiosk design is a minor factor.** The gap between Ascott's average kiosk utilisation of about 20% and The Ridge's 85% was driven largely by factors outside the machine: placement, visibility, staff training, guest fit and reliability. A better kiosk would leave most of that gap untouched.
 2. **Fixing one pain point is not enough.** A tool that rectified a single hotel's current problem would not prevent the next manager from making different mistakes. We would need to address every pain point, across properties that serve very different guests.
@@ -14,7 +14,7 @@ Our answer was therefore **not to build the best kiosk in the world, but to help
 
 #### Deciding the form of the prototype {#playbook-requirements}
 
-We began by asking two questions: *how do we help hotels make better decisions during kiosk implementation?* and *how do we create a guide that helps them handle the nuances of integrating a kiosk, not just designing one?* From these we set out the requirements for the prototype.
+We began by asking two questions: *How do we help hotels make better decisions during kiosk implementation?* and *How do we create a guide that helps them handle the nuances of integrating a kiosk, not just designing one?* From these we set out the requirements for the prototype.
 
 - **Audience.** The primary reader is the hotel manager responsible for the decision, but consultants and kiosk vendors are also likely users, so the content has to work for all three.
 - **Guided, not just informative.** Managers are often unsure or unaware of what they actually want from a kiosk (e.g. lower manpower cost? smoother arrival? a more innovative brand?). The first job of the prototype is to help them clarify their objective, with later content adapting to it.
@@ -22,7 +22,7 @@ We began by asking two questions: *how do we help hotels make better decisions d
 - **Covers the full journey.** It should address strategy, design and execution so that no stage is left unsupported, and should include a cost-benefit analysis so managers can build a financial case for their owners.
 - **Usable beyond the session.** Completed work should be exportable so that managers can take it into discussions with owners, vendors or funding agencies.
 
-A static report or checklist would meet only the first of these. A user-interactive web-based **playbook** would meet all of them, which is why we chose it as the Phase I prototype.
+A static report or checklist would meet only the first of these. An interactive web-based **playbook** for the manager would meet all of them, which is why we chose it as the Phase I prototype.
 
 #### Structure: Strategy, Design, Execution {#playbook-structure}
 
@@ -54,4 +54,3 @@ Explore the playbook below, or [open the standalone playbook](apps/playbook/inde
 
 ### Playbook deployment {#playbook-deployment}
 The playbook will be hosted online as a website, allowing hotel managers to access and utilise its interactive tools conveniently. Given the sensitivity of guest and financial data, user inputs will not be stored on the website to safeguard data privacy. Instead, users will be able to download a copy of the completed playbook, including their inputs and calculated results, for future reference and decision-making.
-
