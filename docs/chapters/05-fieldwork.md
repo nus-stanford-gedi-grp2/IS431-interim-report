@@ -38,13 +38,12 @@ We interviewed **Mr Michael Lee, Innovation and Digital Transformation Officer a
 
 Several key insights emerged from the interview:
 
-- **Low Kiosk Adoption:** Average kiosk utilisation was approximately **20%**, with the best-performing property achieving **40%**, against an aspirational target of **70%**. This highlighted the gap between current performance and desired adoption levels.
-
-- **Technical and Infrastructure Constraints:** Issues involving facial recognition, keycard dispensing, and backend integration affected kiosk reliability. Physical constraints such as LAN connections and power outlets also limited placement flexibility, particularly in existing properties.
-
-- **Guest Behaviour and Staff Involvement:** Guest demographics and arrival patterns were identified as important considerations. Mr Lee also shared an example where staff actively encouraged kiosk usage, with the property reportedly achieving **70% kiosk utilisation for check-out**, suggesting the potential importance of human assistance in driving adoption.
-
-- **Financial and Implementation Considerations:** Indicative costs of **S$20,000 per kiosk** and **S$2,000 in annual maintenance**, alongside infrastructure costs and the involvement of multiple decision-makers, highlighted the complexity of kiosk deployment.
+| Key point | Details |
+| --- | --- |
+| **Low Kiosk Adoption** | Average kiosk utilisation was approximately **20%**, with the best-performing property achieving **40%**, against an aspirational target of **70%**. This highlighted the gap between current performance and desired adoption levels. |
+| **Technical and Infrastructure Constraints** | Issues involving facial recognition, keycard dispensing, and backend integration affected kiosk reliability. Physical constraints such as LAN connections and power outlets also limited placement flexibility, particularly in existing properties. |
+| **Guest Behaviour and Staff Involvement** | Guest demographics and arrival patterns were identified as important considerations. Mr Lee also shared an example where staff actively encouraged kiosk usage, with the property reportedly achieving **70% kiosk utilisation for check-out**, suggesting the potential importance of human assistance in driving adoption. |
+| **Financial and Implementation Considerations** | Indicative costs of **S$20,000 per kiosk** and **S$2,000 in annual maintenance**, alongside infrastructure costs and the involvement of multiple decision-makers, highlighted the complexity of kiosk deployment. |
 
 #### Interview with Mr Sherwin Poh | The Ridge NUS
 
@@ -52,13 +51,12 @@ We also interviewed **Mr Sherwin Poh, Senior Manager (Operations) at The Ridge N
 
 Key insights from the interview included:
 
-- **Kiosk Design and Placement:** Kiosk placement must accommodate guest queues without obstructing walkways, while providing sufficient privacy during check-in. Interface design was also important, with emphasis placed on minimising the number of steps required to complete the process.
-
-- **Human Assistance:** Staff assistance was also important, particularly when guests encountered difficulties with automated check-in. Mr Poh highlighted that to ensure staff were properly trained to work around kiosks, he would even conduct the training himself occassionally.
-
-- **Pre-arrival Check-in:** The hotel implemented online pre-arrival check-in, allowing guests to submit identification details and complete verification before arrival. Automated email reminders and pre-populated booking information helped streamline the subsequent on-site check-in process.
-
-- **Technology Integration and Automation:** The hotel utilised delivery, cleaning, and linen-handling robots integrated with systems such as lifts, doorbells, and RFID tracking. These examples highlighted the importance of coordinating multiple systems when introducing automation into hotel operations.
+| Key point | Details |
+| --- | --- |
+| **Kiosk Design and Placement** | Kiosk placement must accommodate guest queues without obstructing walkways, while providing sufficient privacy during check-in. Interface design was also important, with emphasis placed on minimising the number of steps required to complete the process. |
+| **Human Assistance** | Staff assistance was also important, particularly when guests encountered difficulties with automated check-in. Mr Poh highlighted that to ensure staff were properly trained to work around kiosks, he would even conduct the training himself occassionally. |
+| **Pre-arrival Check-in** | The hotel implemented online pre-arrival check-in, allowing guests to submit identification details and complete verification before arrival. Automated email reminders and pre-populated booking information helped streamline the subsequent on-site check-in process. |
+| **Technology Integration and Automation** | The hotel utilised delivery, cleaning, and linen-handling robots integrated with systems such as lifts, doorbells, and RFID tracking. These examples highlighted the importance of coordinating multiple systems when introducing automation into hotel operations. |
 
 #### Key Takeaways
 
