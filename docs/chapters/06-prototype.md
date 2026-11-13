@@ -17,12 +17,12 @@ Our answer was therefore **not to build the best kiosk in the world, but to help
 We began by asking two questions: *how do we help hotels make better decisions during kiosk implementation?* and *how do we create a guide that helps them handle the nuances of integrating a kiosk, not just designing one?* From these we set out the requirements for the prototype.
 
 - **Audience.** The primary reader is the hotel manager responsible for the decision, but consultants and kiosk vendors are also likely users, so the content has to work for all three.
-- **Guided, not just informative.** Managers often do not know what they actually want from a kiosk (lower manpower cost? a smoother arrival? a more innovative brand?). The first job of the prototype is to help them clarify their objective, with later content adapting to it.
+- **Guided, not just informative.** Managers are often unsure or unaware of what they actually want from a kiosk (e.g. lower manpower cost? smoother arrival? a more innovative brand?). The first job of the prototype is to help them clarify their objective, with later content adapting to it.
 - **Interactive and personalised.** Each stage should include an activity or template for the reader to complete, such as a guest persona or goal-setting exercise, with the reader's own values driving the results. This helps them move from theory to action.
 - **Covers the full journey.** It should address strategy, design and execution so that no stage is left unsupported, and should include a cost-benefit analysis so managers can build a financial case for their owners.
 - **Usable beyond the session.** Completed work should be exportable so that managers can take it into discussions with owners, vendors or funding agencies.
 
-A static report or checklist would meet only the first of these. An interactive web-based **playbook** meets all of them, which is why we chose it as the Phase I prototype.
+A static report or checklist would meet only the first of these. A user-interactive web-based **playbook** would meet all of them, which is why we chose it as the Phase I prototype.
 
 #### Structure: Strategy, Design, Execution {#playbook-structure}
 
@@ -30,7 +30,7 @@ The playbook follows three stages, mirroring how a hotel moves from deciding on 
 
 | Stage | Question it answers | What the manager does |
 |---|---|---|
-| **Strategy** | Is a kiosk right for us, and what do we want from it? | Define objectives and set measurable goals; profile their guests; assess kiosk suitability; run a cost-benefit analysis (staff hours released, adoption scenarios, payback) |
+| **Strategy** | Is a kiosk right for us, and what do we want from it? | <ul><li>Define objectives and set measurable goals</li><li>Profile guests based on certain attributes, which were derived from...</li><li>Assess kiosk suitability</li><li>Run a cost-benefit analysis (staff hours released, adoption scenarios, payback) |
 | **Design** | What should the kiosk and its setting look like? | Apply principles for placement, physical and inclusive design, UI/UX, human–kiosk handoff, security and privacy, and guest fit; compare candidate placements using the Kiosk Placement Studio |
 | **Execution** | How do we deploy and run it? | Identify work to be done in four workstreams: <ul><li>Product - procuring the kiosks</li><li>Infrastructure - integration of the kiosks into physical and digital systems</li><li>Manpower - staff training and revision of Terms of Reference</li><li>Maintenance and Upgrades - ensuring the kiosk is up to date in meeting guest needs</li></ul>|
 
