@@ -8,7 +8,7 @@ To evaluate the playbook's practical relevance and usability, we sought feedback
 
 We sought feedback from **Mr Sherwin Poh**, who responded positively to the playbook, highlighting its potential to guide hotel operators towards more comprehensive and informed decisions during kiosk implementation.
 
-> "It's (the playbook's) great, I would have used it as a guide to make more informed considerations when planning as there may have been things I didn't think about."
+> "[The playbook's] great, I would have used it as a guide to make more informed considerations when planning as there may have been things I didn't think about."
 >
 > ~ Mr Sherwin Poh, Senior Manager (Operations), The Ridge NUS
 
@@ -23,7 +23,7 @@ Mr Poh highlighted several features that could support hotel operators throughou
 #### Feedback from Ascott
 
 We also sought feedback from **Mr Michael Lee**, who expressed appreciation for the playbook and his intention to share it with Ascott's building managers.
-More specifically, he commentted about the following:
+More specifically, he commented about the following:
 
 1. The **Design Principles** section is a particularly useful component of the playbook to guide kiosk design decisions. It is valuable and helps put together kiosk design considerations.  
 
@@ -40,6 +40,22 @@ The feedback from both hotel managers were encouraging, highlighting the playboo
 
 The feedback also revealed opportunities to improve the playbook's clarity and integration with existing hotel systems, providing useful directions for future refinement.
 
+### A Good Hotel Arrival Experience {#arrival-experience-alignment}
+
+In Chapter 3, criteria for a good arrival experience were established with reference to _ISO 22483:2020_. Beyond a quick check-in, guests should be able to find their way, understand the process at a glance, and receive help whenever needed. A kiosk can speed up the check-in, but it has to be deployed thoughtfully. 
+
+The playbook is designed to improve the arrival experience according to the criteria set:
+
+| Criteria for _a good arrival experience_ | How the playbook supports this criteria |
+|---|---|
+| Clear reception **signage** | **Placement principles** call for signage that makes kiosk use and eligibility clear, and the **Kiosk Placement Tool** rates locations on visibility. |
+| Effective **communication** | UI/UX principles favour **scanning** over typing, and the kiosk is configured for guests' **languages**. |
+| Prompt, courteous **assistance** | The **Kiosk Suitability Assessment** recommends staff nearby, or the counter, when the guest mix needs it. Execution covers **staff training** and hand-offs from kiosk to staff. |
+| **Accessibility** | **Inclusive design principles** cover height, reach and font size, and the **Kiosk Placement Tool** rates accessibility. |
+| **Security** procedures | Security and **privacy principles**, such as privacy screens and keeping personal details off the display. |
+
+This alignment is by design. The playbook considers fundamental principles to guide considerations for hotel managers at each step of the kiosk implementation beyond the kiosk hardware purchase. 
+
 ### Areas for Improvement {#areas-for-improvement}
 
 While the playbook provides a structured approach to kiosk implementation, several limitations remain. These primarily stem from limited access to hotel-specific operational data and the need for further validation by more industry professionals.
@@ -48,7 +64,7 @@ While the playbook provides a structured approach to kiosk implementation, sever
 
 A guest's propensity for kiosk adoption is most likely influenced by varying weights of the identified guest attributes, but these weights have not been empirically tuned. Due to limited access to hotel-specific guest data, we currently assign equal weights to the guest attributes used in evaluating their likelihood of rejecting or accepting kiosk check-ins. 
 
-Further _data collection and analysis of guest data_ would be required to refine the weighting system and improve the accuracy of suitability assessments. Mr Lee has given an update that he has almost completed his process in consolidating a dataset of de-identified guest data with the requested attribute fields. Model and parameter training an begin when this dataset is shared, for us to develop a kiosk suitability model grounded on real numbers.
+Further _data collection and analysis of guest data_ would be required to refine the weighting system and improve the accuracy of suitability assessments. Mr Lee has given an update that he has almost completed his process in consolidating a dataset of de-identified guest data with the requested attribute fields. Model and parameter training can begin when this dataset is shared, for us to develop a kiosk suitability model grounded on real numbers.
 
 #### 2. Kiosk Placement Tool Evaluation is Subjective
 
