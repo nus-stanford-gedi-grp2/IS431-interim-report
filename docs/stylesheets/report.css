@@ -576,19 +576,89 @@ body:has(.landing-page) :is(.md-footer, .md-sidebar, .md-top) {
   border-left: 4px solid var(--nus-orange);
 }
 
-/* Keep Material's native scroll tracking, with chapter links styled as destinations. */
+/* Chapter navigation: a clean, borderless list that keeps Material's scroll tracking. */
+[dir] .md-nav--integrated > .md-nav__list > .md-nav__item--active .md-nav--secondary,
+.md-nav--secondary {
+  margin-left: 0;
+  border: 0;
+}
+
+/* Page label above the chapter list, styled as a small eyebrow heading. */
+@media (min-width: 76.25em) {
+  .md-nav--primary > .md-nav__list > .md-nav__item--active > a.md-nav__link {
+    margin: 0 0 0.5rem;
+    padding-left: 0.9rem;
+    color: var(--nus-gold);
+    font-size: 0.62rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    text-transform: uppercase;
+    pointer-events: none;
+  }
+
+  .md-nav--primary .md-nav--secondary {
+    margin-left: 0;
+  }
+}
+
+[dir] .md-nav--secondary > .md-nav__list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+  padding: 0;
+}
+
+.md-nav--secondary > .md-nav__list > .md-nav__item {
+  padding: 0;
+}
+
 .md-nav--secondary > .md-nav__list > .md-nav__item > .md-nav__link {
-  padding: 0.65rem 0.7rem;
-  border: 1px solid #e1e7ee;
-  border-radius: 0.25rem;
-  background: #f8fafc;
+  position: relative;
+  margin: 0;
+  padding: 0.5rem 0.75rem 0.5rem 0.9rem;
+  border: 0;
+  border-radius: 0.4rem;
+  background: transparent;
+  color: var(--md-default-fg-color--light);
   line-height: 1.45;
+  text-decoration: none;
+  transition: background-color 150ms ease, color 150ms ease;
+}
+
+.md-nav--secondary > .md-nav__list > .md-nav__item > .md-nav__link:hover {
+  background: #f2f5f9;
+  color: var(--nus-blue);
 }
 
 .md-nav--secondary > .md-nav__list > .md-nav__item > .md-nav__link--active {
-  border-left: 3px solid var(--nus-orange);
-  background: #eaf1f9;
+  background: #eef3f9;
+  color: var(--nus-blue);
+  font-weight: 700;
   text-decoration: none;
+}
+
+/* Small orange accent pill marks the chapter currently in view. */
+.md-nav--secondary > .md-nav__list > .md-nav__item > .md-nav__link--active::before {
+  content: "";
+  position: absolute;
+  top: 0.55rem;
+  bottom: 0.55rem;
+  left: 0.3rem;
+  width: 3px;
+  border-radius: 3px;
+  background: var(--nus-orange);
+}
+
+.md-nav--secondary > .md-nav__list > .md-nav__item > .md-nav__link:focus-visible {
+  outline: 2px solid var(--nus-orange);
+  outline-offset: 1px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .md-nav--secondary .md-nav__link {
+    transition: none;
+  }
 }
 
 @media (max-width: 45em) {

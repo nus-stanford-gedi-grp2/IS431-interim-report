@@ -112,6 +112,11 @@ Because forum users are likely to be more tech-savvy and to travel more often th
 
 **Theme 1: Reliability.** Technical failure was the most common complaint. Users described frozen screens, bookings that could not be found, kiosks retaining passports, and keys that were not issued or did not work. One user vowed never to use a kiosk again, and two felt staff blamed them for the failure (*What Do You Think*, n.d.). Mobile check-in drew similar criticism, with guests forced to repeat the process at the desk (Mattg, 2024). This matches Meuter et al.'s (2000) finding that technology and process failures are leading causes of dissatisfaction with self-service technologies (SSTs).
 
+<figure markdown="1">
+  ![Diagram of a kiosk with four failure points: the screen freezes, the booking lookup returns not found, the passport slot keeps the passport, and the key dispenser gives no working key; any one failure leads guests to never use the kiosk again](../assets/images/figures/Research_Kiosk-Failure-Points.png)
+  <figcaption>Common kiosk failure points reported by guests. A single failure can end a guest's use of the kiosk.</figcaption>
+</figure>
+
 **Theme 2: Recognition and human contact.** Loyalty members reported that kiosks could not apply points or issue breakfast vouchers despite displaying their elite status, whereas staff could offer complimentary extras (Mattg, 2024). Guests also relied on the desk for questions about facilities and directions (*Why Is It Hotel Self-Check-In Kiosk Not Popular*, n.d.). Lui and Piccoli (2010) similarly found that guests continued to use the front desk for consultation, and a high "need for interaction" is known to reduce the appeal of self-service (Dabholkar & Bagozzi, 2002).
 
 **Theme 3: Segment and travel purpose.** Support came mainly from frequent and business travellers keen to avoid "meaningless chitchats" with staff (*What Do You Think*, n.d.), while others expected upmarket hotels to offer both options so guests could choose according to their trip purpose (Mattg, 2024). Japan was often cited as a market where kiosks are already normal. This reflects the importance of compatibility with travellers' needs (Kim & Qu, 2014) and managers' view that SSTs suit business-oriented, non-luxury properties (Liu & Hung, 2021).
@@ -121,6 +126,11 @@ Because forum users are likely to be more tech-savvy and to travel more often th
 **Theme 5: Mobile-first and hybrid journeys.** Many contributors preferred app check-in with mobile keys to lobby kiosks (*Why Is It Hotel Self-Check-In Kiosk Not Popular*, n.d.). Suggested hybrids included using kiosks only to dispense keycards where doors lack mobile-key readers, and an express lane for guests who had checked in online. At Genting, guests used the app to reserve a room before arrival, reducing the kiosk step to under three minutes (*Genting FAQ*, n.d.). This supports treating kiosks as one channel within a complementary portfolio (Lui & Piccoli, 2010; Piccoli & Lui, 2014).
 
 **Theme 6: Usability anxiety and fairness.** Some guests feared making mistakes or could not find their reservation number, whereas the desk needed only a passport (*Why Is It Hotel Self-Check-In Kiosk Not Popular*, n.d.). Others resented doing the hotel's work without any benefit to themselves, or worried about job losses (Mattg, 2024). These concerns reflect the discomfort and insecurity associated with lower technology readiness (Parasuraman, 2000) and the importance of ease of use in kiosk acceptance (Kim & Qu, 2014).
+
+<figure markdown="1">
+  ![Left: the kiosk asks for a booking number from the guest's inbox while the front desk needs only a passport. Right: a seesaw where guest effort (find booking, enter details, fix errors) outweighs an unclear guest benefit, while the hotel saves on staff](../assets/images/figures/Research_Guest-Effort-vs-Benefit.png)
+  <figcaption>Usability and fairness: the kiosk asks more of the guest than the front desk does, while the savings go to the hotel.</figcaption>
+</figure>
 
 *Summary of guest themes and design implications*
 
