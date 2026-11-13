@@ -4,8 +4,6 @@
 
 This section will provide academic references used throughout the report.
 
-*Source: ISO 22483:2020, Sections 4.4, 5.1 and 5.2.1.*
-
 Boo, H. C., & Chua, B.-L. (2022). An integrative model of facial recognition check-in technology adoption intention: The perspective of hotel guests in Singapore. *International Journal of Contemporary Hospitality Management, 34*(11), 4052–4079. <https://doi.org/10.1108/IJCHM-12-2021-1471>
 
 Cayla, J. (2023, October 3). Services staff are humans, too – and customers need to understand this. *The Straits Times*. <https://www.straitstimes.com/opinion/service-staff-are-humans-too-and-customers-need-to-understand-this>
@@ -17,6 +15,8 @@ FashionUnited. (2024). Is RFID the solution to the obstacles in retail's self-sc
 *Genting FAQ – Part 3* [Online forum thread]. (n.d.). HardwareZone Forums. <https://forums.hardwarezone.com.sg/threads/genting-faq-part-3.5963352/page-775>
 
 Immigration & Checkpoints Authority. (2024, October 24). *Passport-less clearance fully rolled out at Changi Airport* [Media release]. <https://www.ica.gov.sg/news-and-publications/newsroom/media-release/passport-less-clearance-fully-rolled-out-at-changi-airport>
+
+International Organization for Standardization. (2020). *Tourism and related services — Hotels — Service requirements* (ISO Standard No. 22483:2020). <https://www.iso.org/standard/73315.html>
 
 Kim, M., & Qu, H. (2014). Travelers' behavioral intention toward hotel self-service kiosks usage. *International Journal of Contemporary Hospitality Management, 26*(2), 225–245. <https://doi.org/10.1108/IJCHM-09-2012-0165>
 
