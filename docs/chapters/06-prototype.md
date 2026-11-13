@@ -6,7 +6,7 @@
 
 Our hotel visits (Chapter 4) surfaced six recurring problems with kiosks in practice: basic functionality (passport scan errors, bookings that fail to link, payment failures, jammed or missing key cards), clunky UI/UX, cabling, poor positioning, difficulty handling large tasks such as multi-room bookings, and a lingering demand for human touch. The natural reaction is to design a better kiosk. We chose not to, for three reasons:
 
-1. **Kiosk design is a minor factor.** The gap between 20% usage at one hotel and 85% at another was driven largely by factors outside the machine: placement, visibility, staff training, guest fit and reliability. A better kiosk would leave most of that gap untouched.
+1. **Kiosk design is a minor factor.** The gap between Ascott's average kiosk utilisation of about 20% and The Ridge's 85% was driven largely by factors outside the machine: placement, visibility, staff training, guest fit and reliability. A better kiosk would leave most of that gap untouched.
 2. **Fixing one pain point is not enough.** A tool that rectified a single hotel's current problem would not prevent the next manager from making different mistakes. We would need to address every pain point, across properties that serve very different guests.
 3. **Hotels differ.** Luxury, mid-range and budget hotels, and hotels with different guest mixes, face different trade-offs. The valuable thing to hand over was not a single answer but a way of reaching the right answer for each property.
 
