@@ -2,7 +2,7 @@
 
 ### Hotel visits {#hotel-visits}
 
-As part of our ground work, we visited four hotels: Furama RiverFront, Citadines Science Park, Citadines Connect Rochester and The Ridge (NUS Hotel), and observed arriving guests' experience of the check-in kiosks.
+As part of our ground work, we visited four hotels: Furama RiverFront, Citadines Science Park, Citadines Connect Rochester and The Ridge (NUS Hotel), and observed arriving guests' experience of the check-in kiosks. This was conducted over the course of about 3 months from Auguest to October 26.
 
 <figure markdown="1">
   ![Lobby views of the kiosks at Furama RiverFront, Citadines Science Park, Citadines Connect Rochester and The Ridge (NUS Hotel)](../assets/images/figures/Fieldwork_Hotel-Visit-Lobbies.png)
@@ -53,11 +53,15 @@ Key insights from the interview included:
 
 | Key point | Details |
 | --- | --- |
-| **Kiosk Design and Placement** | Kiosk placement must accommodate guest queues without obstructing walkways, while providing sufficient privacy during check-in. Interface design was also important, with emphasis placed on minimising the number of steps required to complete the process. |
+| **Kiosk Design and Placement** | Kiosk placement must accommodate guest queues without obstructing walkways, while providing sufficient privacy during check-in. Interface design was also important, with emphasis placed on minimising the number of steps required to complete the process. Along with other factors, this helped The Ridge achieve an 85% kiosk check-in rate. |
 | **Human Assistance** | Staff assistance was also important, particularly when guests encountered difficulties with automated check-in. Mr Poh highlighted that to ensure staff were properly trained to work around kiosks, he would even conduct the training himself occassionally. |
 | **Pre-arrival Check-in** | The hotel implemented online pre-arrival check-in, allowing guests to submit identification details and complete verification before arrival. Automated email reminders and pre-populated booking information helped streamline the subsequent on-site check-in process. |
 | **Technology Integration and Automation** | The hotel utilised delivery, cleaning, and linen-handling robots integrated with systems such as lifts, doorbells, and RFID tracking. These examples highlighted the importance of coordinating multiple systems when introducing automation into hotel operations. |
 
 #### Key Takeaways
 
-Both interviews highlighted that successful technology adoption requires a holistic understanding of guest preferences, operational workflows, and implementation constraints. These initial insights helped establish the foundation for our subsequent fieldwork and the development of the kiosk implementation playbook.
+Both interviews highlighted that successful technology adoption requires a holistic understanding of guest preferences, operational workflows, and implementation constraints.
+
+### Fieldwork summary
+
+The fieldwork highlighted that successful kiosk adoption depends on more than the technology itself. Guest suitability, physical placement, staff involvement, and operational readiness all influence how effectively kiosks are used. These findings shaped our decision to develop an implementation playbook, with the next chapter outlining how we translated these insights into its requirements, structure, and interactive features.
