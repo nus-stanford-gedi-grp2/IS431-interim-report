@@ -4,6 +4,8 @@
 
 Boo, H. C., & Chua, B.-L. (2022). An integrative model of facial recognition check-in technology adoption intention: The perspective of hotel guests in Singapore. *International Journal of Contemporary Hospitality Management, 34*(11), 4052–4079. <https://doi.org/10.1108/IJCHM-12-2021-1471>
 
+Cammax Limited. (n.d.). A bite-sized guide to kiosk deployment.
+
 Cayla, J. (2023, October 3). Services staff are humans, too – and customers need to understand this. *The Straits Times*. <https://www.straitstimes.com/opinion/service-staff-are-humans-too-and-customers-need-to-understand-this>
 
 Dabholkar, P. A., & Bagozzi, R. P. (2002). An attitudinal model of technology-based self-service: Moderating effects of consumer traits and situational factors. *Journal of the Academy of Marketing Science, 30*(3), 184–201. <https://doi.org/10.1177/0092070302303001>
@@ -41,6 +43,8 @@ Parasuraman, A. (2000). Technology Readiness Index (TRI): A multiple-item scale 
 Piccoli, G., & Lui, T.-W. (2014). The competitive impact of information technology: Can commodity IT contribute to competitive performance? *European Journal of Information Systems, 23*(6), 616–628. <https://doi.org/10.1057/ejis.2013.20>
 
 Seah, K. (2022, July 23). Commentary: Raise salaries to attract more locals to hospitality and F&B? It's not so simple. *CNA*. <https://www.channelnewsasia.com/commentary/hotel-restaurant-long-wait-labour-shortage-foreign-worker-jobs-2828971>
+
+Singapore Tourism Board. (2024). Best practices in implementing self check-in solutions (Version 1.0).
 
 Singapore Tourism Board. (2026a). *Business Improvement Fund (BIF)*. Retrieved November 13, 2026, from <https://www.stb.gov.sg/licensing-support/grants/business-improvement-fund/>
 
