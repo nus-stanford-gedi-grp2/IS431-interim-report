@@ -9,7 +9,7 @@ As part of our ground work, we visited four hotels: Furama RiverFront, Citadines
   <figcaption>Kiosk deployments in the lobbies of the four hotels visited. Photos: IS-431 Team.</figcaption>
 </figure>
 
-Below are our key findings from each hotel visited:
+Below are our key observations from each hotel visited:
 
 | Hotel | Observation |
 |---|---|
@@ -30,7 +30,7 @@ Below are our key findings from each hotel visited:
 
 ### Interviews conducted
 
-As part of our initial fieldwork, we conducted interviews with industry professionals from Ascott and The Ridge NUS to better understand the challenges of technology adoption in hotels.
+In addition to the visits, we conducted interviews with industry professionals from Ascott and The Ridge NUS to better understand the challenges of technology adoption in hotels.
 
 #### Interview with Mr Michael Lee | Ascott
 
