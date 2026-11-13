@@ -2,6 +2,8 @@
 
 ### Singapore's hospitality landscape {#hospitality-landscape}
 
+#### Hotel sector overview
+
 Singapore's hotel sector spans three broad segments: **luxury** (for example Raffles, Mandarin Oriental, Shangri-La and The Ritz-Carlton), **mid-range** (for example Novotel, Holiday Inn and Hilton Garden Inn, and serviced-residence brands such as Citadines, Somerset and Oakwood), and **budget** (for example lyf, Hotel 81 and ibis budget). Large groups such as The Ascott Limited operate brands across several of these tiers. The segments differ in guest profile, service expectations, margins and staffing models, so a solution that suits a luxury property is not automatically right for a budget one. This became a recurring consideration in how we framed our eventual prototype.
 
 Despite these differences, every hotel delivers the same core service chain of pre-arrival, arrival, stay and departure:
@@ -9,6 +11,12 @@ Despite these differences, every hotel delivers the same core service chain of p
 ![Hotel core services across pre-arrival, arrival, stay, and departure](../assets/images/figures/hotel-core-services.png)
 
 Our work focuses on **arrivals**, which is the first moment a guest interacts with the hotel in person. It is also the stage that combines the most routine, rule-bound tasks (verifying identity, collecting payment, issuing a key) in a single, time-pressured transaction at the front desk.
+
+#### Defining a good hotel arrival experience
+
+To establish a benchmark for a good hotel arrival experience, we referred to **ISO 22483:2020, *Tourism and Related Services — Hotels — Service Requirements***. The standard outlines expectations for front desk operations and guest service, including clear reception signage, effective communication, prompt and courteous assistance, accessibility considerations, and security procedures. Collectively, these requirements suggest that a positive arrival experience extends beyond a quick check-in process; guests should also be able to obtain necessary information and receive appropriate assistance throughout their arrival.
+
+These principles provide a reference point for evaluating the existing guest journey and identifying areas where the arrival experience could be improved, forming a foundation for our subsequent analysis of guest pain points and opportunities for improvement.
 
 ### Manpower challenges {#manpower-challenges}
 

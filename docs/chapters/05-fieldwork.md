@@ -31,3 +31,7 @@ Below are our key findings from each hotel visited:
   ![Check-in at Citadines Science Park](../assets/images/figures/SciencePk_KioskFailure.png)
   <figcaption>Kiosk check-in failure at Citadines Science Park. Photo: IS-431 Team.</figcaption>
 </figure>
+
+### Interviews conducted
+
+
