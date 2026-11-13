@@ -66,4 +66,27 @@ Yue, K. (2025, September 2). Singapore's Hotel Industry Digital Plan gets update
 
 ### Appendices {#appendices}
 
-This section will provide supporting materials for the research, fieldwork, prototype development, and evaluation.
+### Appendix A: Fieldwork Report Template
+We conducted our hotel visits through fly-on-the-wall observation by hanging around hotel lobbies and check-in areas to observe procedures, guest reactions and the overall movement from arrival until the guests went off to their rooms. To aid in collecting our findings, we used the template below:
+
+**Hotel Background**
+
+| Point | Details |
+|---|---|
+| Owner | _Name of organization_ |
+| Stars | _1 to 5 stars_ |
+| Tier/branding | _Luxury, mid-range or budget_ |
+| Unique selling point | _Any notable special points of the hotel_ |
+| Relevant innnovations | _Any novel use of technology_ |
+
+
+**Hotel Observations**
+
+| Stage | Observation | Inference | Opportunities and lessons |
+|---|---|---|---|
+| General ambience | | | |
+| Arrival | | | |
+| Waiting | | | |
+| Check-in | | | |
+| Post check-in | | | |
+| Others | | | |
