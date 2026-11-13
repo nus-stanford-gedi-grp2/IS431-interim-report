@@ -37,7 +37,8 @@ html {
 }
 
 .md-typeset h1,
-.md-typeset h2 {
+.md-typeset h2,
+.md-typeset h3 {
   color: var(--nus-blue);
   font-family: Georgia, "Times New Roman", serif;
 }
@@ -60,8 +61,9 @@ html {
 }
 
 .md-typeset h3 {
-  font-size: 1.1em;
-  font-weight: 600;
+  padding-top: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 500;
 }
 
 .md-typeset :is(h2, h3, h4) {
