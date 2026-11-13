@@ -6,7 +6,7 @@ To evaluate the playbook's practical relevance and usability, we sought feedback
 
 #### Feedback from The Ridge NUS
 
-We sought feedback from **Mr Sherwin Poh, Senior Manager (Operations) at The Ridge NUS**, who responded positively to the playbook, highlighting its potential to guide hotel operators towards more comprehensive and informed decisions during kiosk implementation.
+We sought feedback from **Mr Sherwin Poh**, who responded positively to the playbook, highlighting its potential to guide hotel operators towards more comprehensive and informed decisions during kiosk implementation.
 
 > "It's (the playbook's) great, I would have used it as a guide to make more informed considerations when planning as there may have been things I didn't think about."
 >
@@ -22,7 +22,7 @@ Mr Poh highlighted several features that could support hotel operators throughou
 
 #### Feedback from Ascott
 
-We also sought feedback from **Mr Michael Lee, Innovation and Digital Transformation Officer at Ascott**, who described the playbook as a good effort and expressed his intention to share it with Ascott's building managers.
+We also sought feedback from **Mr Michael Lee**, who described the playbook as a good effort and expressed his intention to share it with Ascott's building managers.
 He made the following comments:
 
 1. The **Design Principles** section is a particularly useful component of the playbook, recognising its value in guiding kiosk design decisions.
