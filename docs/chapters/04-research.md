@@ -8,7 +8,10 @@ Singapore's hotel sector spans three broad segments: **luxury** (for example Raf
 
 Despite these differences, every hotel delivers the same core service chain of pre-arrival, arrival, stay and departure:
 
-![Hotel core services across pre-arrival, arrival, stay, and departure](../assets/images/figures/hotel-core-services.png)
+<figure markdown="1">
+  ![Hotel core services across pre-arrival, arrival, stay and departure, with the arrival stage (check-in and ID verification, room and key assignment, luggage and concierge) highlighted as the focus of this project](../assets/images/figures/Research_Hotel-Core-Services.png)
+  <figcaption>Core hotel services across the guest journey. This project focuses on the arrival stage.</figcaption>
+</figure>
 
 Our work focuses on **arrivals**, which is the first moment a guest interacts with the hotel in person. It is also the stage that combines the most routine, rule-bound tasks (verifying identity, collecting payment, issuing a key) in a single, time-pressured transaction at the front desk.
 
@@ -28,11 +31,21 @@ Global tourism has fully rebounded, with around 1.4 billion international touris
 
 Labour supply has not kept pace. In June 2025, Singapore's accommodation sector had a **job vacancy rate of 6.5%**, more than double the economy-wide rate of 3.0%, rising to **8.4% for clerical, sales and service roles** such as front-desk staff (Ministry of Manpower [MOM], 2025). Employers report that resident job seekers avoid hard-to-fill service roles because they find the work physically strenuous (42.9%), the hours long (39.1%) and the pay unattractive (37.4%) (MOM, 2026b). Low occupational status, limited recognition and verbal abuse from guests compound the problem (Cayla, 2023), and locals often remain uninterested even when wages rise (Seah, 2022).
 
+<figure markdown="1">
+  ![Cause-and-effect diagram: demanding work, low status and recognition, and wages not attracting locals lead to hotels struggling to fill front-desk roles, shown in vacancy rates of 6.5% in accommodation and 8.4% for clerical, sales and service roles](../assets/images/figures/Research_Labour-Shortage-Causes.png)
+  <figcaption>Root causes and effects of the front-desk labour shortage (Cayla, 2023; MOM, 2025, 2026b; Seah, 2022).</figcaption>
+</figure>
+
 Foreign labour offers limited relief. The services-sector foreign-worker quota has been tightened from 50% to **35% of a firm's workforce** (MOM, n.d.; Seah, 2022), and the minimum qualifying salary for new S Pass holders rises to **S$3,600 from January 2027**, with a further rise to around S$4,000–4,500 expected by 2030 (MOM, 2026a). Hotels are therefore hiring largely at entry level: about **two-thirds of accommodation vacancies require one year of experience or less** (MOM, 2026b), placing a heavy, recurring burden on training and service consistency.
 
 #### A widening gap
 
 Demand and labour supply are therefore moving in opposite directions. The World Travel & Tourism Council (WTTC, 2025) projects that by 2035 the global hospitality workforce will fall about **18%, or 8.6 million workers, short of requirements**. Singapore is likely to feel this more acutely, as resident workforce growth is slowing and labour force participation is already high (MOM, 2025). Understaffed hotels face slower and less consistent service, which erodes guest satisfaction (Seah, 2022).
+
+<figure markdown="1">
+  ![Illustrative chart of hospitality workers needed rising faster than workers available to 2035, showing an 18% gap of about 8.6 million workers, alongside notes that Singapore feels this more acutely and that service quality suffers](../assets/images/figures/Research_Workforce-Gap.png)
+  <figcaption>The projected global hospitality workforce gap to 2035 (WTTC, 2025). Trend lines are illustrative.</figcaption>
+</figure>
 
 <!-- TODO: insert the chart of the hospitality industry's top challenges and priorities (referred to as Figure 3 in the source draft). -->
 
