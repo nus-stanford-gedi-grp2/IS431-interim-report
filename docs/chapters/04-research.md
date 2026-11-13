@@ -18,15 +18,25 @@ To establish a benchmark for a good hotel arrival experience, we referred to **I
 
 These principles provide a reference point for evaluating the existing guest journey and identifying areas where the arrival experience could be improved, forming a foundation for our subsequent analysis of guest pain points and opportunities for improvement.
 
-### Manpower challenges {#manpower-challenges}
+### Tourism demand and manpower challenges {#manpower-challenges}
 
-The hotel industry in Singapore faces a persistent shortage of front-line labour, and this is the pressure that most directly shapes interest in self-service technology:
+#### Rising demand
 
-- Hospitality roles are among the **hardest to fill** in Singapore's job vacancy statistics (ranked 4th hardest-to-fill in the figures we reviewed). Job seekers surveyed by the Ministry of Manpower (MOM) most often cited physically strenuous work (42.9%), long hours (39.1%) and unattractive pay (37.4%), while 33.8% preferred not to work shifts, weekends or public holidays.
-- Foreign-worker **quotas** limit how far the gap can be filled from overseas, and the **minimum qualifying salary for new S Passes rises to S$3,600 from 1 January 2027**, raising the cost of each hire.
-- A large share of staff, around two-thirds in the figures we reviewed, have only **0–1 year of experience**, which makes consistent service and training harder to sustain.
+Global tourism has fully rebounded, with around 1.4 billion international tourist arrivals in 2024, or 99% of pre-pandemic levels (UN Tourism, 2025). According to the Singapore Tourism Board (STB, 2026), Singapore welcomed **16.9 million visitors** and a record **S$32.8 billion in tourism receipts** in 2025, and is targeting S$47–50 billion by 2040. For hotels, this growth means sustained pressure on front-of-house services such as check-in and check-out.
 
-Staffing also comes in discrete units. A hotel cannot hire "0.3 of a person", so a front desk sized for the busiest arrival window is under-used for much of the day, while one sized for the average day is overwhelmed at peak. Peak arrivals, such as an aircrew of 20–30 checking in at once, are a matter of **concurrency rather than total volume**, which is exactly the kind of demand a self-service channel can absorb.
+#### A shrinking labour supply
+
+Labour supply has not kept pace. In June 2025, Singapore's accommodation sector had a **job vacancy rate of 6.5%**, more than double the economy-wide rate of 3.0%, rising to **8.4% for clerical, sales and service roles** such as front-desk staff (Ministry of Manpower [MOM], 2025). Employers report that resident job seekers avoid hard-to-fill service roles because they find the work physically strenuous (42.9%), the hours long (39.1%) and the pay unattractive (37.4%) (MOM, 2026b). Low occupational status, limited recognition and verbal abuse from guests compound the problem (Cayla, 2023), and locals often remain uninterested even when wages rise (Seah, 2022).
+
+Foreign labour offers limited relief. The services-sector foreign-worker quota has been tightened from 50% to **35% of a firm's workforce** (MOM, n.d.; Seah, 2022), and the minimum qualifying salary for new S Pass holders rises to **S$3,600 from January 2027**, with a further rise to around S$4,000–4,500 expected by 2030 (MOM, 2026a). Hotels are therefore hiring largely at entry level: about **two-thirds of accommodation vacancies require one year of experience or less** (MOM, 2026b), placing a heavy, recurring burden on training and service consistency.
+
+#### A widening gap
+
+Demand and labour supply are therefore moving in opposite directions. The World Travel & Tourism Council (WTTC, 2025) projects that by 2035 the global hospitality workforce will fall about **18%, or 8.6 million workers, short of requirements**. Singapore is likely to feel this more acutely, as resident workforce growth is slowing and labour force participation is already high (MOM, 2025). Understaffed hotels face slower and less consistent service, which erodes guest satisfaction (Seah, 2022).
+
+<!-- TODO: insert the chart of the hospitality industry's top challenges and priorities (referred to as Figure 3 in the source draft). -->
+
+The global hospitality industry faces a structural workforce crisis that is likely to worsen, and Singapore, with its relatively expensive labour force, will be doubly affected. There is therefore a real and pressing need for solutions that ease this pressure, particularly at labour-intensive touchpoints such as the front desk.
 
 ### Regulatory context for check-in {#regulatory-context}
 
@@ -67,7 +77,11 @@ Across the stakeholder map, one solution recurs: the **self-service kiosk**. Gue
   <figcaption>Each stakeholder group's needs converge on kiosks, which are also established in other industries such as retail and F&amp;B.</figcaption>
 </figure>
 
+Kiosks also offer a targeted response to the manpower challenges described above. Front-desk staffing comes in whole units: a desk sized for peak arrivals is under-used for much of the day, while one sized for average demand is overwhelmed at peak. Arrival surges, such as an aircrew of 20–30 checking in at once, are a problem of **concurrency rather than total volume**, which parallel self-service stations are well suited to absorb. By standardising routine transactions, kiosks also reduce reliance on a largely entry-level workforce and free limited staff for interactions that benefit from a human touch.
+
 Kiosks have also delivered measurable results in other industries. McDonald's reported larger average order sizes (about 20%) after introducing ordering kiosks, partly through upselling. Changi Airport's passport-free immigration clearance, fully rolled out in September 2024, cut average clearance time from 25 seconds to about 10. Retail chains such as Uniqlo have used self-checkout to shorten transaction times. The remainder of this chapter examines these cases and their limits in more detail, including cases where self-service has been scaled back.
+
+Technology alone will not resolve the manpower crisis, and automation can make service work less visible and less valued (Cayla, 2023). We therefore position kiosks as a **complement to front-line staff rather than a replacement**.
 
 The question that motivated our project, then, is not *whether* kiosks make sense for hotels, but a more difficult one: **how well are they actually working, and what can we learn from the hotels that have already adopted them?**
 
