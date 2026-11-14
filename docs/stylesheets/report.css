@@ -400,9 +400,17 @@ body:has(.landing-page) :is(.md-footer, .md-sidebar, .md-top) {
 
 .landing-navigation {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 1rem;
   margin-top: 3rem;
+}
+
+@media (max-width: 60em) {
+  .landing-navigation {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    max-width: 40rem;
+    margin-inline: auto;
+  }
 }
 
 .md-typeset .landing-navigation a {
@@ -418,7 +426,7 @@ body:has(.landing-page) :is(.md-footer, .md-sidebar, .md-top) {
   border-radius: 0.4rem;
   background: #ffffff;
   color: #ffffff;
-  font-size: clamp(1.05rem, 2vw, 1.4rem);
+  font-size: clamp(1rem, 1.6vw, 1.25rem);
   font-weight: 600;
   line-height: 1.25;
   text-align: left;
@@ -459,6 +467,141 @@ body:has(.landing-page) :is(.md-footer, .md-sidebar, .md-top) {
 .md-typeset .landing-card-image--playbook {
   object-fit: contain;
   background: #493c33;
+}
+
+.md-typeset .landing-card-image--presentation {
+  object-position: center 35%;
+}
+
+/* Interim presentation page: reuses the playbook page layout with PDF actions. */
+.presentation-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem 1.25rem;
+}
+
+.md-typeset .presentation-actions .site-button {
+  padding: 0.45rem 0.9rem;
+  font-size: 0.7rem;
+  text-decoration: none;
+}
+
+.slide-viewer {
+  /* Fit the whole slide plus controls within the window height. */
+  max-width: min(60rem, calc((100svh - 16rem) * 16 / 9));
+  margin: 1.25rem auto 0;
+  outline: none;
+}
+
+.slide-viewer:focus-visible .slide-stage {
+  box-shadow: 0 0 0 3px var(--nus-orange), 0 10px 30px rgb(0 61 124 / 14%);
+}
+
+.slide-stage {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  background: #eef2f7;
+  box-shadow: 0 10px 30px rgb(0 61 124 / 14%);
+}
+
+.slide-canvas {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.md-typeset .slide-status {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  margin: 0;
+  padding: 1rem;
+  color: var(--md-default-fg-color--light);
+  font-size: 0.75rem;
+  text-align: center;
+}
+
+.md-typeset .slide-status[hidden],
+.slide-button[hidden] {
+  display: none;
+}
+
+.slide-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.slide-button {
+  display: inline-grid;
+  place-items: center;
+  width: 2.2rem;
+  height: 2.2rem;
+  border: 1px solid rgb(0 61 124 / 18%);
+  border-radius: 50%;
+  background: #ffffff;
+  color: var(--nus-blue);
+  font-size: 1.1rem;
+  line-height: 1;
+  cursor: pointer;
+  transition: border-color 150ms ease, background-color 150ms ease;
+}
+
+.slide-button:hover:not(:disabled),
+.slide-button:focus-visible {
+  border-color: var(--nus-orange);
+  background: #fff7ef;
+  outline: none;
+}
+
+.slide-button:disabled {
+  opacity: 0.35;
+  cursor: default;
+}
+
+.slide-button--fullscreen {
+  margin-left: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.slide-counter {
+  min-width: 4.5rem;
+  color: var(--md-default-fg-color--light);
+  font-size: 0.75rem;
+  font-variant-numeric: tabular-nums;
+  text-align: center;
+}
+
+/* Fullscreen: dark backdrop with the slide centred and fitted to the screen. */
+.slide-viewer:fullscreen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: none;
+  margin: 0;
+  padding: 2rem;
+  background: #0d1b2a;
+}
+
+.slide-viewer:fullscreen .slide-stage {
+  width: min(100%, calc((100vh - 6rem) * 16 / 9));
+  margin-inline: auto;
+}
+
+.slide-viewer:fullscreen .slide-counter {
+  color: #d5dde6;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .slide-button {
+    transition: none;
+  }
 }
 
 .landing-navigation a span {

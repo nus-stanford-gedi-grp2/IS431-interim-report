@@ -14,6 +14,10 @@ hide:
         <img class="landing-card-image landing-card-image--team" src="assets/images/landing-page/about-us.jpg" alt="">
         <span>About Us</span>
       </a>
+      <a href="presentation.html">
+        <img class="landing-card-image landing-card-image--presentation" src="assets/images/landing-page/presentation.jpg" alt="">
+        <span>Interim Presentation</span>
+      </a>
       <a href="report.html">
         <img class="landing-card-image" src="assets/images/landing-page/report.png" alt="">
         <span>Interim Report</span>

@@ -23,6 +23,7 @@ theme:
 nav:
   - Home: index.md
   - About Us: about.md
+  - Interim Presentation: presentation.md
   - Interim Report: report.md
   - Kiosk Implementation Playbook: playbook.md
 
@@ -47,6 +48,7 @@ extra_css:
 
 extra_javascript:
   - javascripts/report.js
+  - javascripts/presentation.js
 
 extra:
   generator: false
