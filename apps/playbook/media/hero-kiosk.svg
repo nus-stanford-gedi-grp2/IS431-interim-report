@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 640" role="img" aria-labelledby="t"><title id="t">Self-service hotel kiosk with check-in and check-out buttons</title>
+<g stroke="#3A2E28" stroke-width="7" stroke-linejoin="round" stroke-linecap="round">
+<rect x="70" y="30" width="280" height="430" rx="26" fill="#ECE8E2"/>
+<rect x="100" y="62" width="220" height="250" rx="12" fill="#FFFFFF"/>
+<rect x="150" y="340" width="120" height="16" rx="8" fill="#D8C9BB"/>
+<rect x="135" y="382" width="150" height="40" rx="8" fill="#FFFFFF"/>
+<path d="M165 402h90" stroke-width="5"/>
+<path d="M150 460 130 580h160l-20-120" fill="#ECE8E2"/>
+<rect x="90" y="580" width="240" height="28" rx="10" fill="#D8C9BB"/>
+</g><g fill="none" stroke="#3A2E28" stroke-width="7" stroke-linejoin="round"><path d="M175 150 210 118 245 150v42h-70Z"/><path d="M200 192v-24h20v24"/></g><g stroke="#3A2E28" stroke-width="5"><rect x="118" y="218" width="88" height="56" rx="10" fill="#AA744E"/><rect x="214" y="218" width="88" height="56" rx="10" fill="#FFFFFF"/></g><text x="162" y="242" font-family="Roboto, Arial, sans-serif" font-size="17" font-weight="700" fill="#F8F6F2" text-anchor="middle">CHECK</text><text x="162" y="263" font-family="Roboto, Arial, sans-serif" font-size="17" font-weight="700" fill="#F8F6F2" text-anchor="middle">IN</text><text x="258" y="242" font-family="Roboto, Arial, sans-serif" font-size="17" font-weight="700" fill="#3A2E28" text-anchor="middle">CHECK</text><text x="258" y="263" font-family="Roboto, Arial, sans-serif" font-size="17" font-weight="700" fill="#3A2E28" text-anchor="middle">OUT</text></svg>
