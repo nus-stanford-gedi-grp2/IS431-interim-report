@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kiosk Placement Studio</title>
+  <link rel="stylesheet" href="css/styles.css?v=7">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M12 2 3 7v10l9 5 9-5V7z" fill="none" stroke="currentColor" stroke-width="1.8"/><rect x="9.5" y="8" width="5" height="7" rx="1" fill="currentColor"/></svg>
+      <span>Kiosk Placement Studio</span>
+      <span class="sim-badge" title="All grades and scores are simulated estimates from a model of your floor plan, not measured results.">Simulation</span>
+    </div>
+    <nav class="steps">
+      <button class="step active" data-step="1"><span class="num">1</span>Design lobby</button>
+      <span class="step-line"></span>
+      <button class="step" data-step="2"><span class="num">2</span>Place kiosks</button>
+    </nav>
+    <div class="actions">
+      <button class="hbtn icon" id="btn-undo" title="Undo (Ctrl/⌘ Z)" aria-label="Undo">↶</button>
+      <button class="hbtn icon" id="btn-redo" title="Redo (Ctrl/⌘ Shift Z)" aria-label="Redo">↷</button>
+      <div class="menu-wrap">
+        <button class="hbtn" id="btn-file" aria-haspopup="true">File <span class="caret">▾</span></button>
+        <div class="menu" id="menu-file" hidden>
+          <button data-file="empty"><span class="mi">□</span>New empty lobby</button>
+          <button data-file="sample"><span class="mi">◧</span>Load sample lobby</button>
+          <hr>
+          <button data-file="import"><span class="mi">↥</span>Import layout…</button>
+          <button data-file="export"><span class="mi">↧</span>Export layout</button>
+        </div>
+      </div>
+      <button class="hbtn" id="btn-formulas" title="View and edit how scores and grades are calculated">ƒ Formulas</button>
+      <button class="hbtn" id="btn-settings" title="OpenAI settings"><span class="ai-dot" id="ai-dot"></span>AI</button>
+      <input type="file" id="file-import" accept=".json,application/json" hidden>
+    </div>
+  </header>
+
+  <main>
+    <!-- Step 1: top-down floor plan editor -->
+    <section id="view-design" class="view active">
+      <aside class="palette">
+        <div class="pal-head">
+          <div class="pal-title">Elements</div>
+          <input class="pal-search" id="pal-search" type="search" placeholder="Search…" spellcheck="false">
+        </div>
+        <div class="pal-body" id="palette"></div>
+      </aside>
+      <div class="canvas-wrap" id="design-wrap">
+        <svg id="design-svg" xmlns="http://www.w3.org/2000/svg"></svg>
+        <div class="float-bar tl">
+          <button class="btn icon" id="dz-out" title="Zoom out">−</button>
+          <button class="btn icon" id="dz-fit" title="Fit to screen">⤢</button>
+          <button class="btn icon" id="dz-in" title="Zoom in">+</button>
+          <span class="sep"></span>
+          <label class="toggle"><input type="checkbox" id="opt-snap" checked><span>Snap</span></label>
+          <label class="toggle"><input type="checkbox" id="opt-labels" checked><span>Labels</span></label>
+        </div>
+        <div class="float-bar tr">
+          <button class="btn subtle danger-text" id="btn-reset-lobby" title="Remove everything and start from an empty lobby">Reset to empty lobby</button>
+        </div>
+        <button class="help-btn" data-help="help-design" title="Shortcuts">?</button>
+        <div class="help-pop" id="help-design" hidden>
+          <h4>Designing the lobby</h4>
+          <dl>
+            <dt>Drag from the left</dt><dd>Add an item (or click it)</dd>
+            <dt>Drag item · handles</dt><dd>Move · resize</dd>
+            <dt>Blue room handles</dt><dd>Resize the lobby</dd>
+            <dt><kbd>R</kbd></dt><dd>Rotate 90°</dd>
+            <dt><kbd>Del</kbd></dt><dd>Delete</dd>
+            <dt><kbd>⌘/Ctrl</kbd> <kbd>D</kbd></dt><dd>Duplicate</dd>
+            <dt>Arrows</dt><dd>Nudge (<kbd>Shift</kbd> = 0.5 m)</dd>
+            <dt><kbd>Alt</kbd> while dragging</dt><dd>Ignore snapping</dd>
+            <dt>Scroll · drag empty space</dt><dd>Zoom · pan</dd>
+          </dl>
+        </div>
+        <button class="btn primary next-step" id="btn-to-place">Place kiosks <span aria-hidden="true">→</span></button>
+      </div>
+      <aside class="inspector" id="inspector"></aside>
+    </section>
+
+    <!-- Step 2: isometric kiosk placement -->
+    <section id="view-place" class="view">
+      <div class="iso-wrap" id="iso-wrap">
+        <canvas id="iso-canvas"></canvas>
+        <div class="float-bar tl dark">
+          <div class="seg">
+            <button class="seg-btn" id="tool-place" title="Place kiosks (K)">＋ Place</button>
+            <button class="seg-btn" id="tool-select" title="Select & move (V)">Select</button>
+          </div>
+          <span class="sep"></span>
+          <button class="btn icon" id="face-ccw" title="Turn kiosk left 45° (Shift+Space)">⟲</button>
+          <button class="btn icon" id="face-cw" title="Turn kiosk right 45° (Space)">⟳</button>
+          <button class="btn icon" id="kiosk-del" title="Remove kiosk (Del)">✕</button>
+        </div>
+        <div class="float-bar tr dark menu-wrap">
+          <button class="btn" id="btn-layers">Layers <span class="caret">▾</span></button>
+          <div class="menu dark" id="menu-layers" hidden>
+            <label class="mrow"><input type="checkbox" data-ov="heat" checked><span class="sw sw-heat"></span>Heatmap & best spot</label>
+            <label class="mrow"><input type="checkbox" data-ov="flow" checked><span class="sw sw-route"></span>Guest routes</label>
+            <label class="mrow"><input type="checkbox" data-ov="cables" checked><span class="sw sw-cable"></span>Cables</label>
+            <label class="mrow"><input type="checkbox" data-ov="sight"><span class="sw sw-sight"></span>Sightlines</label>
+            <label class="mrow"><input type="checkbox" data-ov="labels" checked><span class="sw sw-label"></span>Labels</label>
+          </div>
+        </div>
+        <div class="cam-bar float-bar dark">
+          <button class="btn icon" id="cam-ccw" title="Turn 90° (or right-drag to turn freely)">↺</button>
+          <button class="btn icon" id="cam-cw" title="Turn 90° (or right-drag to turn freely)">↻</button>
+          <button class="btn icon" id="cam-fit" title="Re-centre (F)">⤢</button>
+        </div>
+        <div class="heat-legend" id="heat-legend">
+          <span>Predicted grade</span><div class="hl-buckets" id="hl-buckets"></div>
+        </div>
+        <button class="help-btn dark" data-help="help-place" title="Shortcuts">?</button>
+        <div class="help-pop" id="help-place" hidden>
+          <h4>Placing kiosks</h4>
+          <dl>
+            <dt>Click floor</dt><dd>Place a kiosk (<kbd>Shift</kbd> = keep placing)</dd>
+            <dt><kbd>Space</kbd></dt><dd>Turn kiosk 45° (<kbd>Shift</kbd> = other way)</dd>
+            <dt>Drag a kiosk</dt><dd>Move it</dd>
+            <dt>Right-drag</dt><dd>Turn the scene freely</dd>
+            <dt>Right-click</dt><dd>Turn 90° (<kbd>Shift</kbd> = other way)</dd>
+            <dt>Drag floor · scroll</dt><dd>Pan · zoom</dd>
+            <dt><kbd>W A S D</kbd> · <kbd>F</kbd></dt><dd>Pan · re-centre</dd>
+            <dt><kbd>K</kbd> · <kbd>V</kbd> · <kbd>Del</kbd></dt><dd>Place · select · remove</dd>
+          </dl>
+        </div>
+        <div class="sim-chip" title="All grades and scores are simulated estimates from a model of your floor plan, not measured results.">Simulated view · grades are model estimates</div>
+        <div class="coach" id="iso-coach">Click the floor to place a kiosk <span>·</span> <kbd>Space</kbd> turns it <span>·</span> right-drag turns the scene</div>
+        <div class="iso-tip" id="iso-tip"></div>
+        <div class="busy" id="iso-busy"><div class="spinner"></div><span>Analysing lobby…</span></div>
+      </div>
+      <aside class="results" id="results"></aside>
+    </section>
+  </main>
+
+  <!-- Settings modal -->
+  <div class="modal-backdrop" id="settings-modal" hidden>
+    <div class="modal" role="dialog" aria-labelledby="set-title">
+      <h2 id="set-title">AI review settings</h2>
+      <p class="muted">The built-in engine always scores placements. With an OpenAI key you also get a written expert review based on its measurements.</p>
+      <label class="field">
+        <span>OpenAI API key</span>
+        <input type="password" id="set-key" placeholder="sk-..." autocomplete="off" spellcheck="false">
+      </label>
+      <label class="field">
+        <span>Model</span>
+        <input type="text" id="set-model" list="model-list" spellcheck="false">
+        <datalist id="model-list">
+          <option value="gpt-5-mini"><option value="gpt-5"><option value="gpt-4.1"><option value="gpt-4.1-mini"><option value="gpt-4o">
+        </datalist>
+      </label>
+      <label class="toggle plain"><input type="checkbox" id="set-remember" checked><span>Remember the key in this browser</span></label>
+      <p class="fineprint">The key is sent only to api.openai.com, directly from this page. Avoid shared or production keys on shared computers.</p>
+      <div class="modal-actions">
+        <button class="btn subtle" id="set-clear">Forget key</button>
+        <span class="spacer"></span>
+        <button class="btn" id="set-cancel">Cancel</button>
+        <button class="btn primary" id="set-save">Save</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Formula editor -->
+  <div class="modal-backdrop" id="fx-modal" hidden>
+    <div class="modal fx-modal" role="dialog" aria-labelledby="fx-title">
+      <div class="fx-mhead">
+        <div>
+          <h2 id="fx-title">Scoring formulas</h2>
+          <p class="muted small"><b>Observed measurements</b> (metres, m², degrees, counts, yes/no, each with how to measure it on site) → <b>factors</b> → <b>criteria</b> (0–100) → <b>overall</b>. Each score gets one of four grades (A–D; thresholds editable below) and is shown grade first, then bucket and score. Any D criterion caps the overall at D. Edit any formula; changes preview live on <span id="fx-subject">the selected kiosk</span>.</p>
+        </div>
+        <button class="btn icon subtle" id="fx-close" title="Close" aria-label="Close">✕</button>
+      </div>
+      <div class="fx-main">
+        <div class="fx-left">
+          <div class="tabs fx-tabs" id="fx-tabs">
+            <button class="tab active" data-fxtab="criteria">Criteria</button>
+            <button class="tab" data-fxtab="factors">Factors</button>
+            <button class="tab" data-fxtab="overall">Overall & grades</button>
+          </div>
+          <div class="fx-body" id="fx-body"></div>
+        </div>
+        <aside class="fx-ref">
+          <input class="pal-search" id="fx-ref-search" type="search" placeholder="Search measurements & functions…" spellcheck="false">
+          <p class="muted xsmall">Click a name to insert it into the formula you're editing.</p>
+          <div id="fx-ref"></div>
+        </aside>
+      </div>
+      <div class="modal-actions fx-foot">
+        <button class="btn subtle" id="fx-reset-all">Reset all to defaults</button>
+        <span class="fx-status" id="fx-status"></span>
+        <span class="spacer"></span>
+        <button class="btn" id="fx-cancel">Cancel</button>
+        <button class="btn primary" id="fx-apply">Apply formulas</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="toasts" id="toasts"></div>
+
+  <script src="js/catalog.js?v=7"></script>
+  <script src="js/state.js?v=7"></script>
+  <script src="js/geometry.js?v=7"></script>
+  <script src="js/formulas.js?v=7"></script>
+  <script src="js/scoring.js?v=7"></script>
+  <script src="js/ai.js?v=7"></script>
+  <script src="js/editor.js?v=7"></script>
+  <script src="js/iso.js?v=7"></script>
+  <script src="js/results.js?v=7"></script>
+  <script src="js/formula-editor.js?v=7"></script>
+  <script src="js/app.js?v=7"></script>
+</body>
+</html>
